@@ -14,24 +14,212 @@
     align-items: center;
 }
 
-#button-container{
-    display:  flex;
+#button-container {
+    display: flex;
     flex-grow: 1;
     justify-content: end;
 }
 
-#button-container > div >button {
+#button-container>div>button {
     padding-left: 29px;
     padding-right: 30px;
     padding-top: 18px;
     padding-bottom: 18px;
     border-radius: 25px;
     margin-left: 10px;
-    
+
 }
 
-#nav-items> ul {
+#nav-items>ul {
     display: flex;
     gap: 40px;
     list-style: none;
+}
+
+#banner1-container {
+    border: 3px solid red;
+    height: 500px;
+    display: flex;
+    gap: 10px;
+}
+
+#image1-container {
+    width: 50%;
+
+}
+
+#banner-imag1 {
+    background-image: url(./images/Rectangle\ 767.png);
+    width: 50%;
+    border: 2px solid blue;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner-image2-container {
+    width: 50%;
+    border: 3px solid blue;
+    display: flex;
+    gap: 30px;
+}
+
+#our-service-container {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid white;
+    width: 100%;
+    height: 60px;
+}
+
+#our-service-container>div button {
+    width: 124px;
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+#our-service-container>div>span {
+    color: white;
+}
+
+#our-service-container>div>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+#our-service-bottom-button {
+    border: 3px solid blue;
+    position: absolute;
+    width: 80%;
+    height: 150px;
+    bottom: 10px;
+    right: 10%;
+
+}
+
+#our-service-bottom-button>div>button {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0px;
+}
+
+#our-service-bottom-button>div>button>img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+
+#our-service-bottom-button>div {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#banner-image2-container div {
+    width: 50%;
+}
+
+#image2 {
+    background-image: url(./images/images-glob.jfif);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2>div {
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    background-color: #FFF;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+#image2>div>div {
+    width: 100%;
+}
+
+#image2>div>div>h1 {
+    font-size: 40px;
+}
+
+#image2>div>div>p {
+    font-size: 24px;
+}
+
+#image3 {
+    position: relative;
+    background-color: #F7F7F7;
+    padding-left: 20px;
+}
+
+#image3-btn {
+    position: absolute;
+    bottom: 50px;
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 0%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#image3>img {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+#image3-stats-container {
+    position: absolute;
+    top: 10%;
+}
+
+#image3-stats-container>div {
+    width: 50%;
+    border: 1px solid black;
+    height: 100px;
+}
+
+#image3-stats-container>div>h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#image3-stats-container>div>p {
+    font-size: 16px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 16px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 16px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
