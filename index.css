@@ -40,6 +40,41 @@
   list-style: none;
 }
 
+/* Our works section  */
+.our-work-container {
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  backdrop-filter: blur(50px);
+}
+.upper-part-of-ourWork {
+  display: flex;
+}
+.upper-left1-text {
+  color: var(--Primary-Primary, #f27229);
+  font-size: 25px;
+
+  line-height: 38px;
+}
+.upper-left2-text {
+  color: var(--bw-black, #141414);
+
+  font-family: Outfit;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135%;
+  text-transform: capitalize;
+}
+.left-of-upper-part {
+  padding-left: 60px;
+}
+.right-of-upper-part-text {
+  color: var(--Shades-Shade-1, #5a5c5f);
+
+  line-height: 32px;
+}
+
 /* project part section  */
 .left-part-button {
   padding: 10px 25px;
