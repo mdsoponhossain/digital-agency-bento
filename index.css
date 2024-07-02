@@ -40,6 +40,54 @@
   list-style: none;
 }
 
+/* project part section  */
+.left-part-button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 1px solid var(--Primary-Primary, #f27229);
+
+  background-color: white;
+  color: #f27229;
+}
+.left-part-ofproject {
+  height: 450px;
+  width: 900px;
+  border-radius: 30px;
+  background: var(--Shades-shade-4, #f7f7f7);
+  padding-left: 60px;
+}
+.project-side-left-text {
+  color: var(--bw-black, #141414);
+  font-size: 60px;
+
+  text-transform: capitalize;
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+.right-part-ofproject {
+  position: relative;
+}
+.absolute-buttons {
+  position: absolute;
+  top: 50px;
+  left: 10%;
+}
+.right-part-upper-button {
+  padding-bottom: 250px;
+}
+.project-part-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.service-button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  background: var(--bw-white, #fff);
+  color: #f27229;
+  border-style: none;
+}
+
 /* footer styles  */
 #footer-container {
   flex-shrink: 0;
